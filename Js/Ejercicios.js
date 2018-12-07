@@ -65,12 +65,19 @@ else if(kilos>10){
 
     }
 
-    document.write("<br><p>El resultado de ñla suma de los multiplos de el numero 3 es: "+add+"</p>");
+    document.write("<br><p>El resultado de la suma de los multiplos de el numero 3 es : "+add+"</p>");
 
     document.write("<br><p>La suma de todos los numeros de y es: "+suma+"</p>");
 
     document.write("<br><p>La suma de los numeros terminados en cinco es: "+count+"</p>");
-    */ 
+    */  
 
+    /**Ejercicio 4 SUMAR 
+ 
+var number = parseInt(prompt("Ingrese un numero"));
+var number2= parseInt(prompt("Ingrese una segunda cifra a sumar"));
+var number3= parseInt(prompt("Ingrese una tercera cifra a sumar"));
+var number4= parseInt(prompt("Ingrese una ultima cifra a sumar"));
 
-    
+document.write("<h1>Las cifras que usted acaba de digitar son ", String(number) +',   '+ String(number2)+',       '+ String(number3)+',     '+ String(number4)+" y el resultado de estas cifras sumadas es: ",(number)+(number2)+(number3)+(number4)  );
+*/ 
